@@ -1,6 +1,7 @@
 # cash-register
 The solution in Java
 
+```
 Hello Change
 At Rocketmiles, our team loves travelling. However, many places we travel don’t accept our credit cards,
 and we have to remember to bring dollar bills with us. We’ve had to correct a few vendors about giving us
@@ -39,3 +40,4 @@ sorry
 // exit program
 > quit
 bye
+```
