@@ -1,0 +1,25 @@
+
+apply plugin: 'java'
+
+version artifact_version
+group "com.rocketmiles"
+
+compileJava {
+	sourceCompatibility = java_source_version
+	targetCompatibility = java_target_version
+}
+
+repositories {
+    jcenter()
+	mavenCentral()
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '2.13'
+}
+
+dependencies {
+	compile 'org.slf4j:slf4j-api:1.7.21'
+
+	testCompile 'junit:junit:4.12'
+}
